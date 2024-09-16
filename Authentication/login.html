@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="authentication.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <div class="row-1">
+                <h1>Welcome Back.!</h1>
+                <h3>Login here</h3>
+            </div>
+            <div class="Iclss">
+                
+                <div >
+                    <input type="text" placeholder="Email" id="loginemail">
+                </div>
+                <div class="password" >
+                    <input type="password" placeholder="Password" id="loginpasswd">
+                </div>
+                <div class="fpassword">
+                    <a href=""><h5 style="font-size: 15px; margin-top: -4px;">Forget Password?</h5></a>
+                </div>
+                <div class="btn">
+                    <input type="button" onclick="login()" value="Login">
+                </div>
+            </div>
+            <div class="newaccount">
+                <a href="signup.html"><h5 style="font-size: 15px;">Create New Account </h5></a>
+            </div>
+            <footer>
+                <h5>or continue with</h5>
+                <div class="last-row">
+                    <img src="image/google-icon.png">
+                    <img src="image/facebook-icon.png">
+                    <img src="image/apple-icon.png">
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="./auth.js"></script>
+</body>
+</html>

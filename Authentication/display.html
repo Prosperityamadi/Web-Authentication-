@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaplay Page </title>
+    <link rel="stylesheet" href="authentication.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="storagedisplay">
+
+    </div>
+</body>
+<script>
+    function localdisplay(){
+    const storagedisplay = document.getElementById('storagedisplay')
+    const email = localStorage.setItem('email')
+    const password = localStorage.setItem('passwd')
+    const displaycontent =  `
+    <ul>
+    <li> Email: ${email?email: ""} </li>
+    <li> Password: ${password?password: ""} </li>
+    </ul>`
+    storagedisplay.innerHtml = displaycontent
+}
+
+localdisplay();
+</script>
+</html>

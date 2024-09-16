@@ -1,0 +1,109 @@
+
+body {
+    background-image: url('image/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0; /* Removes default margin */
+    overflow: hidden; /* Prevents scrolling */
+    font-family: "Oxanium", sans-serif;
+}
+.container{
+    padding: 2px 5px 2px 5px;
+    box-sizing: border-box;
+    margin: 250px 550px;
+    border-radius: 20px;
+    border: 2px solid #df3131 ;
+    position: relative;
+    top: -200px;
+}
+.inner-container{
+    padding: 2px 50px;
+}
+.row-1 h1{
+    text-align: center;
+    color: #df3131;
+}
+.row-1 h3{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white
+}
+
+.Iclss input {
+    background-color: #f6dcd5;
+    padding: 12px 20px ;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.Iclss input:focus{
+    border:1px solid #df3131;
+    outline: none;
+
+}
+.Iclss input:focus:valid {
+    background-color: #e6f0ff;
+}
+.Iclss input:invalid {
+    background-color: #df3131; /* Original background */
+}
+.Iclss .fpassword a{
+    text-align: right;
+    margin: auto;
+    color: #df3131;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Iclss input[type='button']{
+    background-color: #cc3c3c;
+    color: white;
+    margin: auto;
+    box-shadow: 2px 2px 5px black;
+}
+.Iclss input[type='button']:hover{
+    background-color: #df3131;
+}
+
+.container .newaccount a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: white
+}
+footer h5{
+    text-align: center;
+    color: #df3131;
+}
+footer .last-row{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+footer .last-row img{
+    width: 20px;
+    height: 20px;
+    background-color: #e3dede;
+    padding: 8px;
+    border-radius: 10px;
+    margin:4px;
+    margin-bottom: 80px;
+}
+footer .last-row-1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+footer .last-row-1 a{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    background-color: #df3131;
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
